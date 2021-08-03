@@ -1,0 +1,10 @@
+body {
+    background-image: url("/img/background.jpg");
+}
+.main-content-wrapper {
+    margin-top: 150px;
+    min-height: 220px;
+}
+.main-content-datepicker {
+    margin-top: 40px;
+}
