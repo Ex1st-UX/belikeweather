@@ -1,3 +1,8 @@
+<?php
+// Подключаем скрипты, которые должны быть отправленны до заголовков
+include "core/interface/prolog.php";
+?>
+
 <!doctype html>
 <html lang="ru">
 <head>

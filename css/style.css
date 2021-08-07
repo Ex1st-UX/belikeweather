@@ -6,5 +6,8 @@ body {
     min-height: 220px;
 }
 .main-content-datepicker {
-    margin-top: 40px;
+    margin-top: 20px;
+}
+.main-content-text {
+    margin-top: 20px;
 }
