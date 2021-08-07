@@ -29,22 +29,16 @@ class Weather
         return self::$instance;
     }
 
-    public function getWeather($data)
-    {
-        $this->getCityInfo($data);
-
-        return $this->response;
-    }
-
-    // Get coordinates and any info
-    protected function getCityInfo($data)
+    public function getWeather($city)
     {
         $arOptions = array(
-            'q' => trim($data['city']),
+            'q' => trim($city),
             'appid' => $this->appid,
         );
 
         $this->response =  $this->curl($arOptions, 'https://api.openweathermap.org/data/2.5/weather');
+
+        return $this->response;
     }
 
     protected function curl($arOptions, $url)
@@ -54,7 +48,7 @@ class Weather
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_URL, $url . '?' . http_build_query($arOptions));
 
-        $response = json_decode(curl_exec($ch), true);
+        $response = curl_exec($ch);
 
         curl_close($ch);
         

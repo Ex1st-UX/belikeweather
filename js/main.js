@@ -1,4 +1,4 @@
-
+// AJAX for search weather
 $('#date_form').on('submit', function (e) {
     e.preventDefault();
 
@@ -8,7 +8,7 @@ $('#date_form').on('submit', function (e) {
     };
 
     $.ajax({
-        url: '/core/http/ajax/Weather.php',
+        url: '/core/http/ajax/SearchWeather.php',
         method: 'POST',
         dataType: 'JSON',
         data: data,
@@ -19,4 +19,20 @@ $('#date_form').on('submit', function (e) {
             console.log('error');
         }
     });
+});
+
+// AJAX for user weather
+$(document).ready(function () {
+   $.ajax({
+       url: 'core/http/ajax/GetUserWeather.php',
+       method: 'POST',
+       dataType: 'JSON',
+       data: {},
+       success: function () {
+           console.log('success');
+       },
+       error: function () {
+           console.log('error');
+       }
+   }) ;
 });

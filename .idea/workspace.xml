@@ -20,15 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36359071-d93b-4489-bb2e-742527fb1197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/classes/Weather.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/http/ajax/Weather.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/interface/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/interface/init.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/interface/prolog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/classes/Location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/http/ajax/GetUserWeather.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/Weather.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/Weather.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/http/ajax/Weather.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/http/ajax/SearchWeather.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/prolog.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/interface/prolog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
@@ -85,7 +83,7 @@
       <workItem from="1628101486869" duration="1790000" />
       <workItem from="1628177426003" duration="5296000" />
       <workItem from="1628184470856" duration="4650000" />
-      <workItem from="1628344551881" duration="1274000" />
+      <workItem from="1628344551881" duration="7086000" />
     </task>
     <servers />
   </component>
@@ -109,17 +107,20 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/1920.151.1360.768/0.0.1920.1080@0.0.1920.1080" timestamp="1625081173029" />
-    <state x="655" y="262" key="NewPhpClassDialog" timestamp="1628103287157">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2384" y="337" key="NewPhpClassDialog" timestamp="1628348430033">
+      <screen x="1920" y="151" width="1360" height="768" />
     </state>
     <state x="655" y="262" key="NewPhpClassDialog/1920.151.1360.768/0.0.1920.1080@0.0.1920.1080" timestamp="1628103287157" />
-    <state x="794" y="463" key="NewPhpFileDialog" timestamp="1628180798413">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2384" y="337" key="NewPhpClassDialog/1920.151.1360.768/0.0.1920.1080@1920.151.1360.768" timestamp="1628348430033" />
+    <state x="2482" y="480" key="NewPhpFileDialog" timestamp="1628349474403">
+      <screen x="1920" y="151" width="1360" height="768" />
     </state>
     <state x="794" y="463" key="NewPhpFileDialog/1920.151.1360.768/0.0.1920.1080@0.0.1920.1080" timestamp="1628180798413" />
-    <state x="666" y="273" width="587" height="534" key="find.popup" timestamp="1628179083422">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2482" y="480" key="NewPhpFileDialog/1920.151.1360.768/0.0.1920.1080@1920.151.1360.768" timestamp="1628349474403" />
+    <state x="2392" y="345" width="555" height="534" key="find.popup" timestamp="1628356402864">
+      <screen x="1920" y="151" width="1360" height="768" />
     </state>
     <state x="666" y="273" width="587" height="534" key="find.popup/1920.151.1360.768/0.0.1920.1080@0.0.1920.1080" timestamp="1628179083422" />
+    <state x="2392" y="345" width="555" height="534" key="find.popup/1920.151.1360.768/0.0.1920.1080@1920.151.1360.768" timestamp="1628356402864" />
   </component>
 </project>

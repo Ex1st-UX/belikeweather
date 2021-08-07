@@ -1,8 +1,12 @@
 body {
     background-image: url("/img/background.jpg");
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .main-content-wrapper {
-    margin-top: 150px;
     min-height: 220px;
 }
 .main-content-datepicker {
@@ -10,4 +14,17 @@ body {
 }
 .main-content-text {
     margin-top: 20px;
+}
+.capitals-group-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.capitals-group-item {
+
+}
+.client-city-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
