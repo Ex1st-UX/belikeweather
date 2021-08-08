@@ -35,11 +35,19 @@ class Location
     {
         session_start();
 
+        // cache result
         if (empty($_SESSION['user_weather'])) {
             $this->ip = $ip;
 
             $_SESSION['user_weather'] = $this->getCity($ip);
         }
+
+        // Make time
+        $utc = $_SESSION['user_weather']['region']['utc'] . ':00';
+        date_default_timezone_set('UTC');
+
+        $timeNow = date('H:i');
+        $timeLocation = strtotime($timeNow) + strtotime($utc);
 
         $this->location = array(
             'city' => array(
@@ -50,9 +58,9 @@ class Location
                 'name_ru' => $_SESSION['user_weather']['country']['name_ru'],
                 'name_en' => $_SESSION['user_weather']['country']['name_en']
             ),
-            'utc' => $_SESSION['user_weather']['region']['utc']
+            'time' => date('H:i', $timeLocation)
         );
-
+        
         return $_SESSION['user_weather'];
     }
 

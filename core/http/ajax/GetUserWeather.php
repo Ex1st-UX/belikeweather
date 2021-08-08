@@ -13,4 +13,4 @@ $userData = $Location->location;
 $Weather = Weather::getInstance();
 $userWeather = $Weather->getWeather($userData['city']['name_en']);
 
-echo $userWeather;
+echo json_encode($userWeather);

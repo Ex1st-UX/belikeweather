@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36359071-d93b-4489-bb2e-742527fb1197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/classes/Location.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/http/ajax/GetUserWeather.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/Location.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/Location.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/classes/Weather.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/Weather.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/http/ajax/Weather.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/http/ajax/SearchWeather.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/interface/prolog.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/interface/prolog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/http/ajax/GetUserWeather.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/http/ajax/GetUserWeather.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/http/ajax/SearchWeather.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/http/ajax/SearchWeather.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
@@ -83,7 +82,8 @@
       <workItem from="1628101486869" duration="1790000" />
       <workItem from="1628177426003" duration="5296000" />
       <workItem from="1628184470856" duration="4650000" />
-      <workItem from="1628344551881" duration="7086000" />
+      <workItem from="1628344551881" duration="7855000" />
+      <workItem from="1628421967120" duration="11987000" />
     </task>
     <servers />
   </component>
